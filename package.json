@@ -1,0 +1,21 @@
+{
+  "name": "vux-loader-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./config1.js",
+    "dev2": "webpack --config ./config2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/polyfill": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "babel-loader": "^8.0.0-beta.0",
+    "vux-loader": "^1.1.27",
+    "webpack": "^3.8.1"
+  }
+}
