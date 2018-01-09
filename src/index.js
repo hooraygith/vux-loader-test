@@ -1,3 +1,3 @@
-const a = 333344
+import {TransferDomDirective} from 'vux'
 
-console.log(a)
+console.log(444, TransferDomDirective)

@@ -4,18 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config ./config1.js",
-    "dev2": "webpack --config ./config2.js"
+    "dev": "webpack --config ./webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.32",
-    "@babel/polyfill": "^7.0.0-beta.32",
-    "@babel/preset-env": "^7.0.0-beta.32",
-    "babel-loader": "^8.0.0-beta.0",
-    "vux-loader": "^1.1.27",
-    "webpack": "^3.8.1"
+    "@babel/core": "7.0.0-beta.36",
+    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.36",
+    "@babel/polyfill": "7.0.0-beta.36",
+    "@babel/preset-env": "7.0.0-beta.36",
+    "babel-loader": "8.0.0-beta.0",
+    "vux": "2.7.7",
+    "vux-loader": "1.1.30",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.7"
   }
 }
